@@ -84,37 +84,4 @@ Or evaluate on specific STS tasks:
 python evaluation/evaluate_sts.py --model_name your-model-name --task STS17
 ```
 
-## Pre-trained Models
 
-Our models are available on the Hugging Face Hub:
-
-- [Omartificial-Intelligence-Space/GATE-AraBert-v0](https://huggingface.co/Omartificial-Intelligence-Space/GATE-AraBert-v0)
-
-## Datasets
-
-We use the following datasets for training and evaluation:
-
-- [sentence-transformers/all-nli](https://huggingface.co/datasets/sentence-transformers/all-nli)
-- [sentence-transformers/stsb](https://huggingface.co/datasets/sentence-transformers/stsb)
-- MTEB Arabic evaluation datasets (STS17, STS22, STS22.v2)
-
-## Citation
-
-If you use this code or our pre-trained models, please cite our paper:
-
-```
-@inproceedings{matryoshka-embeddings-2025,
-  title={Matryoshka Representation Learning for Cross-lingual Transfer},
-  author={Your Name and Co-authors},
-  booktitle={Proceedings of the Conference Name},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-We thank the Sentence Transformers team for their excellent library, and the creators of the MTEB benchmark for providing standardized evaluation protocols.
