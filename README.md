@@ -1,6 +1,6 @@
 # MatryoshkaEmbeddings
 
-This repository contains code for training and evaluating Matryoshka Embeddings for multilingual text representations as described in our paper "*Matryoshka Representation Learning for Cross-lingual Transfer*".
+This repository contains code for producibility for our paper "*GATE: General Arabic Text Embedding for Enhanced Semantic Textual Similarity with Matryoshka Representation Learning and Hybrid Loss Training*".
 
 ## Overview
 
