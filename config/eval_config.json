@@ -1,0 +1,27 @@
+{
+    "mteb_evaluation": {
+        "arabic_tasks": [
+            "STS17",
+            "STS22",
+            "STS22.v2"
+        ],
+        "english_tasks": [
+            "STSBenchmark",
+            "SICKRelatedness",
+            "STR"
+        ],
+        "languages": ["ara", "eng"],
+        "batch_size": 32,
+        "dimensions": [768, 512, 256, 128, 64]
+    },
+    "sts_evaluation": {
+        "tasks": [
+            "STS17-ar",
+            "STS22-ar",
+            "STS22.v2-ar",
+            "STSbenchmark"
+        ],
+        "batch_size": 32,
+        "dimensions": [768, 512, 256, 128, 64]
+    }
+}
