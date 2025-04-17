@@ -1,0 +1,43 @@
+{
+    "matryoshka_nli": {
+        "batch_size": 128,
+        "num_epochs": 1,
+        "max_seq_length": 128,
+        "matryoshka_dims": [768, 512, 256, 128, 64],
+        "learning_rate": 2e-5,
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.01,
+        "fp16": true,
+        "bf16": false,
+        "evaluation_steps": 100,
+        "save_steps": 100,
+        "debug_mode": false,
+        "debug_samples": 5000
+    },
+    "hybrid_training": {
+        "batch_size": 64,
+        "num_epochs": 1,
+        "max_seq_length": 128,
+        "matryoshka_dims": [768, 512, 256, 128, 64],
+        "use_matryoshka": true,
+        "learning_rate": 2e-5,
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.01,
+        "fp16": true,
+        "bf16": false,
+        "evaluation_steps": 1000,
+        "save_steps": 1000,
+        "datasets": {
+            "samples_per_dataset": 10000,
+            "include": [
+                "all-nli-pair",
+                "all-nli-pair-class",
+                "all-nli-pair-score",
+                "all-nli-triplet",
+                "stsb",
+                "quora",
+                "natural-questions"
+            ]
+        }
+    }
+}
